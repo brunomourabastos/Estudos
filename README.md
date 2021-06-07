@@ -1,3 +1,3 @@
 # Estudos
 
-#Repositório para alguns estudos diversos
+Repositório para alguns estudos diversos
