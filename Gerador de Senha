@@ -1,0 +1,12 @@
+#Gerador de senha
+import random
+
+minuscula = "abcdefghijklmnopqrstuvxywz"
+maiuscula = "ABCDEFGHIJKLMNOPQRSTUVXYWZ"
+numeros = "0123456789"
+simbolos = "[]{}()*&%$#@-,.<>"
+
+tudo = minuscula + maiuscula + numeros + simbolos
+tamanho = 16
+senha = "".join(random.sample(tudo,tamanho))
+print(senha)
