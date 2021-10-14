@@ -1,3 +1,8 @@
+# a new string where each character in the new string is '(' 
+# if that character appears only once in the original word, or ')' 
+# if that character appears more than once in the original word. 
+# Ignores capitalization when determining if a character is a duplicate.
+
 
 def duplicate_encode(word):
     encode = []
